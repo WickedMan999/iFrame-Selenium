@@ -22,7 +22,7 @@ wait = WebDriverWait(driver, 20)
 
 # Open URL
 driver.get(base_url)
-driver.implicitly_wait(30)
+time.sleep(2)
 
 # ------------------------------------------------- Same origin Iframe: iframe 1 -------------------------------------------------------- #
 # Wait until first iframe is visible
