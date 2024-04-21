@@ -21,7 +21,7 @@ wait = WebDriverWait(driver, 20)
 
 # Open URL
 driver.get(base_url)
-driver.implicitly_wait(30)
+time.sleep(2)
 
 # Wait until iframe is presence
 wait.until(EC.presence_of_element_located(
